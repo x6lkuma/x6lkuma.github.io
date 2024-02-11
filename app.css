@@ -1,0 +1,337 @@
+body{
+	padding: 0;
+    margin: 0;
+    background-color: rgb(241, 163, 209);
+}
+
+/*Images*/
+#hello{
+    width: 500px;
+    position: absolute;
+    top: 8%;
+    left: 41.5%;
+    transform: translate (-50%, -50%);
+}
+
+#cute-bear{
+    display: none;
+    width: 400px;
+    position: absolute;
+    top: 24.8%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+
+#uwu{
+    display: none;
+    width: 135px;
+    position: absolute;
+    top: 36%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+#anime-sakura{
+    display: none;
+    width: 600px;
+    position: absolute;
+    top: 8%;
+    left: 37%;
+    transform: translate (-50%, -50%);
+}
+
+#ani-boy{
+    display: none;
+    width: 350px;
+    position: absolute;
+    top: 15%;
+    left: 40.5%;
+    transform: translate (-50%, -50%);
+}
+
+#kitty-heart{
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 27.5%;
+    left: 37%;
+    transform: translate (-50%, -50%);
+}
+    
+#kitty-heart-2{
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 27.5%;
+    left: 57.5%;
+    transform: translate (-50%, -50%);
+}
+
+#bear-couple{
+    display: none;
+    min-width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 18.5%;
+    transform: translate (-50%, -50%);
+}
+
+#bear-hugs{
+    display: none;
+    min-width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate (-50%, -50%);
+}
+
+
+#poggers{
+    display: none;
+    width: 400px;
+    position: absolute;
+    top: 25%;
+    left: 41.5%;
+    transform: translate (-50%, -50%);
+}
+
+#confetti-canvas{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+  }
+
+/*FIRST PROMPT*/
+.prompt{
+	min-width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 33.5%;
+    transform: translate (-50%, -50%);
+    background-color: rgb(185, 127, 161);
+    box-shadow: 3px 3px 3px rgb(180, 114, 153);
+}
+
+.prompt__container{
+	padding: 10px;
+}
+
+.prompt__container .que {
+	color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.prompt__ops {
+	display: flex;
+	column-gap: 20px;
+}
+
+.prompt__ops button{
+        width: 50%;
+        cursor: pointer;
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+        position: relative;
+    }
+
+.prompt__ops .yes{
+        background-color: #6cbd36;
+    }
+
+.prompt__ops .no{
+        background-color: rgb(255, 70, 70);
+    }
+
+/*Prompt 2*/  
+.prompt2{
+    display: none;
+	min-width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate (-50%, -50%);
+    background-color: rgb(185, 127, 161);
+    box-shadow: 3px 3px 3px rgb(180, 114, 153);
+}
+
+.prompt2__container{
+	padding: 10px;
+}
+
+.prompt2__container .que2 {
+	color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.prompt2__ops {
+	display: flex;
+	column-gap: 20px;
+}
+
+.prompt2__ops button{
+        width: 50%;
+        cursor: pointer;
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+        position: relative;
+    }
+
+.prompt2__ops .yes2{
+        background-color: #6cbd36;
+    }
+
+.prompt2__ops .no2{
+        background-color: rgb(255, 70, 70);
+    }
+
+    /*PROMPT 2.5*/
+        /*Prompt 2*/  
+        .prompt2-5{
+            display: none;
+            min-width: 500px;
+            position: absolute;
+            top: 45%;
+            left: 37%;
+            transform: translate (-50%, -50%);
+            background-color: rgb(185, 127, 161);
+            box-shadow: 3px 3px 3px rgb(180, 114, 153);
+        }
+
+        .prompt2-5__container{
+            padding: 10px;
+        }
+
+        .prompt2-5__container .que2-5 {
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .prompt2-5__ops {
+            display: flex;
+            column-gap: 20px;
+        }
+
+        .prompt2-5__ops button{
+                width: 100%;
+                cursor: pointer;
+                font-size: 14px;
+                border: none;
+                padding: 10px;
+                color: white;
+                font-weight: 600;
+                border-radius: 10px;
+                position: relative;
+            }
+
+        .prompt2-5__ops .yes2-5{
+                background-color: #6cbd36;
+            }
+
+/*Prompt 3*/
+
+.prompt3{
+    display: none;
+	min-width: 500px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate (-50%, -50%);
+    background-color: rgb(185, 127, 161);
+    box-shadow: 3px 3px 3px rgb(180, 114, 153);
+}
+
+.prompt3__container{
+	padding: 10px;
+}
+
+.prompt3__container .que3 {
+	color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.prompt3__ops {
+	display: flex;
+	column-gap: 20px;
+}
+
+.prompt3__ops button{
+        width: 50%;
+        cursor: pointer;
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+        position: relative;
+    }
+
+.prompt3__ops .yes3{
+        background-color: #6cbd36;
+    }
+
+.prompt3__ops .no3{
+        background-color: rgb(255, 70, 70);
+    }
+
+
+/*Final*/    
+.answer{
+    display: none;
+    min-width: 500px;
+    position: absolute;
+    top: 48.5%;
+    left: 25%;
+    transform: translate (-50%, -50%);
+    background-color: rgb(185, 127, 161);
+    box-shadow: 3px 3px 3px rgb(180, 114, 153);
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.answer__container{
+    padding: 15px 5px;
+}
+
+.answer__container p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+      padding-top: 50px;
+    }
+  
+    h1 {
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  }
