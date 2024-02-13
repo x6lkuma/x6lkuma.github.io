@@ -233,14 +233,14 @@ $no3.addEventListener('click', (n3) =>
         $yes3.style.transform = `scale(${1 + counter2 * 0.15})`;
         
         //Change the text of the target
-        $target.innerHTML = sentences[counter % sentences.length];
+        $target.innerHTML = sentences[counter2 % sentences.length];
 
         if (counter2 == 7) {
             $no3.style.display = 'none';
             $yes3.style.width = '100%';
         }
     
-        counter++
+        counter2++
 
     }
 );//end of mouse over event
