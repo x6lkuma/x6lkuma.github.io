@@ -27,6 +27,7 @@ $prompt3 = document.querySelector('.js-prompt3');
 $answer = document.querySelector('.js-answer');
 let counter = 0;
 let counter1 = 0;
+let counter2 = 0;
 
 //Lets make a sentence bank for the message
 const sentences = 
@@ -228,13 +229,13 @@ $no3.addEventListener('click', (n3) =>
         $target.style.right = `${Math.random() * 150}px`
 
         //Make the target smaller
-        $target.style.transform = `scale(${1 - counter * 0.1})`;
-        $yes3.style.transform = `scale(${1 + counter * 0.15})`;
+        $target.style.transform = `scale(${1 - counter2 * 0.1})`;
+        $yes3.style.transform = `scale(${1 + counter2 * 0.15})`;
         
         //Change the text of the target
         $target.innerHTML = sentences[counter % sentences.length];
 
-        if (counter == 7) {
+        if (counter2 == 7) {
             $no3.style.display = 'none';
             $yes3.style.width = '100%';
         }
