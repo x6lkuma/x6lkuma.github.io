@@ -135,7 +135,7 @@ $no2.addEventListener('click', (a) =>
         const $target_a = a.target
         
         //Make the target smaller
-        $target_a.style.transform = `scale(${1 - counter * 0.1})`;
+        $target_a.style.transform = `scale(${1 - counter1 * 0.1})`;
         $target_a.innerHTML = "HEY! stop that . .  please . . . qwq";
 
         if (counter1 == 1) {
