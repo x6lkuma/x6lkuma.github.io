@@ -26,8 +26,9 @@ $prompt2_5 = document.querySelector('.js-prompt2-5');
 $prompt3 = document.querySelector('.js-prompt3');
 $answer = document.querySelector('.js-answer');
 let counter = 0;
+let counter1 = 0;
 
-//Lets make a sentace bank for the message
+//Lets make a sentence bank for the message
 const sentences = 
   [
     "No",
@@ -136,21 +137,21 @@ $no2.addEventListener('click', (a) =>
         $target_a.style.transform = `scale(${1 - counter * 0.1})`;
         $target_a.innerHTML = "HEY! stop that . .  please . . . qwq";
 
-        if (counter == 1) {
+        if (counter1 == 1) {
             $target_a.innerHTML = "If you press that again, I'm gonna cry...";
         }
-        if (counter == 2) {
+        if (counter1 == 2) {
             $target_a.innerHTML = "TT^TT why'd you do that?";
         }
-        if (counter == 3) {
+        if (counte1r == 3) {
             $target_a.innerHTML = "HMMPH! FINE THEN IMMA LEAVE >:(";
         }
-        if (counter == 4) {
+        if (counter1 == 4) {
             $no2.style.display = 'none';
             $yes2.style.width = '100%';
         }
     
-        counter++
+        counter1++
 
     }
 );//end of mouse over event
