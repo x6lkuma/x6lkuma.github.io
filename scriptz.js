@@ -144,7 +144,7 @@ $no2.addEventListener('click', (a) =>
         if (counter1 == 2) {
             $target_a.innerHTML = "TT^TT why'd you do that?";
         }
-        if (counte1r == 3) {
+        if (counte1 == 3) {
             $target_a.innerHTML = "HMMPH! FINE THEN IMMA LEAVE >:(";
         }
         if (counter1 == 4) {
